@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Universitario - Noticiero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- =========================================================
+         HEADER: Nombre del noticiero y fecha actual
+    ========================================================== -->
+    <header class="site-header">
+        <div class="header-inner">
+            <h1 class="site-title">El Universitario</h1>
+            <p class="site-date">Domingo, 22 de marzo de 2026</p>
+        </div>
+    </header>
+
+    <!-- =========================================================
+         NAVBAR: Barra de navegación con categorías principales
+    ========================================================== -->
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#nacional" class="nav-link">Nacional</a></li>
+            <li class="nav-item"><a href="#internacional" class="nav-link">Internacional</a></li>
+            <li class="nav-item"><a href="#deportes" class="nav-link">Deportes</a></li>
+            <li class="nav-item"><a href="#cultura" class="nav-link">Cultura</a></li>
+        </ul>
+    </nav>
+
+    <!-- =========================================================
+         MAIN CONTENT: Área principal de contenido y sidebar
+    ========================================================== -->
+    <div class="page-wrapper">
+
+        <main class="content-area">
+
+            <!-- HERO SECTION: Noticia destacada [0] -->
+            <section class="hero-section" id="nacional">
+                <article class="hero-article">
+                    <figure class="hero-image-wrapper">
+                        <img
+                            src="https://picsum.photos/seed/noticia1/800/450"
+                            alt="Universidad de Chile lanza programa de becas"
+                            class="hero-image"
+                        >
+                    </figure>
+                    <div class="hero-content">
+                        <span class="hero-category">Nacional</span>
+                        <h2 class="hero-title">Universidad de Chile lanza programa de becas para estudiantes vulnerables</h2>
+                        <p class="hero-bajada">El nuevo fondo beneficiará a más de 500 alumnos de primer año con financiamiento completo de aranceles.</p>
+                        <div class="hero-cuerpo">
+                            <p>La Universidad de Chile anunció este lunes el lanzamiento del Programa de Becas Rector 2026, iniciativa que cubrirá el arancel completo de estudiantes provenientes de los dos quintiles de menor ingreso del país. La medida busca reducir la brecha de acceso a la educación superior y fue respaldada por el Consejo Universitario en sesión extraordinaria.</p>
+                            <p>Los postulantes deberán acreditar situación socioeconómica y mantener un rendimiento académico mínimo de 5,0 durante el primer semestre. Las solicitudes se recibirán hasta el 15 de abril a través del portal institucional.</p>
+                        </div>
+                        <span class="hero-meta">Por Rodrigo Fuentes Melo &mdash; 22 de marzo de 2026</span>
+                    </div>
+                </article>
+            </section>
+
+            <!-- NEWS GRID: Noticias [1], [2], [3], [4] -->
+            <section class="news-grid-section">
+                <h3 class="section-heading">Otras noticias</h3>
+                <div class="news-grid">
+
+                    <!-- Noticia [1] Deportes -->
+                    <article class="news-card" data-index="1" id="deportes">
+                        <figure class="news-card-image-wrapper">
+                            <img
+                                src="https://picsum.photos/seed/noticia2/800/450"
+                                alt="Selección chilena de fútbol derrota a Argentina"
+                                class="news-card-image"
+                            >
+                        </figure>
+                        <div class="news-card-content">
+                            <span class="news-card-category">Deportes</span>
+                            <h4 class="news-card-title">Selección chilena de fútbol derrota a Argentina en partido amistoso</h4>
+                            <p class="news-card-bajada">La Roja se impuso por 2 a 1 en el estadio Monumental ante más de 40 mil espectadores.</p>
+                            <p class="news-card-meta">
+                                <span class="news-card-author">Camila Rodríguez Pinto</span>
+                                <span class="news-card-date">22 de marzo de 2026</span>
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Noticia [2] Cultura -->
+                    <article class="news-card" data-index="2" id="cultura">
+                        <figure class="news-card-image-wrapper">
+                            <img
+                                src="https://picsum.photos/seed/noticia3/800/450"
+                                alt="Festival de cine independiente en Valparaíso"
+                                class="news-card-image"
+                            >
+                        </figure>
+                        <div class="news-card-content">
+                            <span class="news-card-category">Cultura</span>
+                            <h4 class="news-card-title">Festival de cine independiente reunirá a cineastas de doce países en Valparaíso</h4>
+                            <p class="news-card-bajada">La décima edición del FICValpo se realizará entre el 28 de marzo y el 4 de abril con entrada liberada.</p>
+                            <p class="news-card-meta">
+                                <span class="news-card-author">Isidora Vega Campos</span>
+                                <span class="news-card-date">22 de marzo de 2026</span>
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Noticia [3] Internacional -->
+                    <article class="news-card" data-index="3" id="internacional">
+                        <figure class="news-card-image-wrapper">
+                            <img
+                                src="https://picsum.photos/seed/noticia4/800/450"
+                                alt="Unión Europea aprueba acuerdo climático"
+                                class="news-card-image"
+                            >
+                        </figure>
+                        <div class="news-card-content">
+                            <span class="news-card-category">Internacional</span>
+                            <h4 class="news-card-title">Unión Europea aprueba nuevo acuerdo climático con metas al año 2035</h4>
+                            <p class="news-card-bajada">El pacto obliga a los estados miembros a reducir en un 65% sus emisiones de carbono en menos de una década.</p>
+                            <p class="news-card-meta">
+                                <span class="news-card-author">Felipe Araya Soto</span>
+                                <span class="news-card-date">22 de marzo de 2026</span>
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Noticia [4] Nacional -->
+                    <article class="news-card" data-index="4">
+                        <figure class="news-card-image-wrapper">
+                            <img
+                                src="https://picsum.photos/seed/noticia5/800/450"
+                                alt="Vacuna experimental contra el virus hanta"
+                                class="news-card-image"
+                            >
+                        </figure>
+                        <div class="news-card-content">
+                            <span class="news-card-category">Nacional</span>
+                            <h4 class="news-card-title">Investigadores chilenos desarrollan vacuna experimental contra el virus hanta</h4>
+                            <p class="news-card-bajada">El equipo de la Universidad Austral logró resultados prometedores en pruebas con modelos animales.</p>
+                            <p class="news-card-meta">
+                                <span class="news-card-author">Andrea Muñoz Larrañaga</span>
+                                <span class="news-card-date">22 de marzo de 2026</span>
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <!-- Widget: Noticias breves -->
+            <section class="sidebar-widget">
+                <h3 class="widget-title">Noticias breves</h3>
+                <ul class="brief-news-list">
+                    <li class="brief-news-item">
+                        <span class="brief-news-category">Nacional</span>
+                        <p class="brief-news-headline">Gobierno anuncia inversión de $200 millones en infraestructura vial para regiones del sur</p>
+                    </li>
+                    <li class="brief-news-item">
+                        <span class="brief-news-category">Internacional</span>
+                        <p class="brief-news-headline">ONU llama a negociaciones de paz en conflicto del Medio Oriente tras nueva escalada</p>
+                    </li>
+                    <li class="brief-news-item">
+                        <span class="brief-news-category">Cultura</span>
+                        <p class="brief-news-headline">Biblioteca Nacional digitaliza más de 10 mil documentos históricos del siglo XIX</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Widget: Clima -->
+            <section class="sidebar-widget weather-widget">
+                <h3 class="widget-title">Clima hoy</h3>
+                <div class="weather-body">
+                    <p class="weather-city">Santiago, Chile</p>
+                    <p class="weather-temp">18°C</p>
+                    <p class="weather-condition">Parcialmente nublado</p>
+                    <p class="weather-details">
+                        <span class="weather-humidity">Humedad: 62%</span>
+                        <span class="weather-wind">Viento: 15 km/h SO</span>
+                    </p>
+                </div>
+            </section>
+
+        </aside>
+
+    </div>
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+
+            <section class="footer-about">
+                <h4 class="footer-heading">El Universitario</h4>
+                <p class="footer-description">Portal de noticias estudiantil dedicado a la cobertura informativa de actualidad nacional, internacional, deportiva y cultural. Fundado en 2024 como proyecto académico de periodismo digital.</p>
+            </section>
+
+            <section class="footer-team">
+                <h4 class="footer-heading">Equipo editorial</h4>
+                <ul class="footer-team-list">
+                    <li class="footer-team-member">
+                        <span class="team-member-name">Valentina Opazo Reyes</span>
+                        <span class="team-member-role">Editora general</span>
+                    </li>
+                    <li class="footer-team-member">
+                        <span class="team-member-name">Matías Contreras Lagos</span>
+                        <span class="team-member-role">Periodista de Nacional</span>
+                    </li>
+                    <li class="footer-team-member">
+                        <span class="team-member-name">Sofía Bustamante Ríos</span>
+                        <span class="team-member-role">Periodista de Internacional</span>
+                    </li>
+                    <li class="footer-team-member">
+                        <span class="team-member-name">Diego Herrera Mora</span>
+                        <span class="team-member-role">Periodista de Deportes y Cultura</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="footer-academic">
+                <h4 class="footer-heading">Información académica</h4>
+                <p class="footer-academic-info">Proyecto de titulación &mdash; Carrera de Periodismo</p>
+                <p class="footer-academic-info">Universidad Austral de las Américas</p>
+                <p class="footer-academic-info">Facultad de Comunicación y Humanidades</p>
+                <p class="footer-academic-info">Año académico 2026</p>
+            </section>
+
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copyright">&copy; 2026 El Universitario. Todos los derechos reservados. Proyecto académico sin fines comerciales.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
