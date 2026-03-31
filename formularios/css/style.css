@@ -1,0 +1,181 @@
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2 {
+    color: #16a085;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+article:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+/* Apuntes ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+font-weight ---> para convertir en negrita
+
+text-align: center; ---> para alinear texto, por ejemplo al centro
+
+font-family: Arial; ----> cambiar fuente
+
+line-height: 1.5; ----->  Espaciado entre líneas
+
+font-size: 16px; ----> unidad de tamaño en pixeles (es tamaño fijo)
+
+width: 50%; ----> unidad de tamaño en porcentaje (Depende del tamaño del contenedorDepende del tamaño del contenedor).
+
+font-size: 1.2rem; ------> em y rem (nivel pro) es mas flexible 
+
+
+
+Estructura del box model
+Cada caja tiene esto:
+
+        [ margin ]
+            [ border ]
+                [ padding ]
+                    [ contenido ]
+
+padding (espacio interno), espacio dentro de la caja:
+padding: 20px;
+
+
+Crea un borde alrededor:
+border: 2px solid black;
+
+margin (espacio externo):
+margin: 20px;
+
+
+Forma corta (muy usada):
+margin: 10px 20px;  
+arriba/abajo → 10px
+izquierda/derecha → 20px
+
+
+También puedes hacer esto:
+margin-top: 10px;
+margin-bottom: 20px;
+
+
+Esto hace que el tamaño de la caja sea más predecible:
+* {
+    box-sizing: border-box;
+}
+
+
+
+Flexbox → ordena elementos en una dirección (fila o columna).
+Grid → trabaja en 2 dimensiones (filas + columnas)
+
+
+Cómo aplicar flexbox:
+Eso convierte el contenedor en flexible
+
+.container {
+    display: flex;
+}
+
+Opciones:
+row → horizontal (default)
+column → vertical
+
+
+Alinear horizontalmente:
+
+flex-start → izquierda
+center → centro
+flex-end → derecha
+space-between → separados
+space-around → con espacio
+
+
+Alinear verticalmente:
+.container {
+    align-items: center;
+}
+
+
+
+Activar Grid:
+.container {
+    display: grid;
+}
+
+Crear columnas:
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+¿Qué es fr?: Significa “fracción del espacio”
+1fr = una parte
+2fr = el doble
+
+
+Ejemplo
+grid-template-columns: 2fr 1fr;
+Resultado:
+columna 1 → más grande
+columna 2 → más pequeña
+
+
+Espaciado (MUY importante)
+.container {
+    gap: 20px;
+}
+Espacio entre elementos (filas y columnas)
+
+
+Resumen fácil
+display: grid → activa grid
+grid-template-columns → columnas
+fr → proporción
+gap → espacio
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

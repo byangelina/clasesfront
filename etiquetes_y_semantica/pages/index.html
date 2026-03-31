@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Angela</h1>
+        <!--
+        1. header: encabezado, seccion o parte superior de la página, puede contener: logo, título, menú...
+        2. nav: menú de navegación, ejemplo abajo:
+            <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Contacto</a>
+            </nav>
+        3. main: lo más importante de la página, solo debe haber uno.
+        4. section: divide contenido (a lo largo de la página) en partes.
+        5. article: es contenido independiente, algo que podría existir solo. A menudo incluyen encabezados y/o pies de página (puede haber mas de un header y mas de un footer dentro de article).
+        6. footer: pie de página / final de la pagina (donde va el menú inferior, copyright, contacto, creador de la página, entre otras cosas).
+        -->
+    </header>
+
+    <main> 
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Estoy aprendiendo desarrollo web porque me gusta el diseño</p>
+            <img src="../img/caritafeliz.png" alt="caritafeliz" width="50" height="50px">
+        </section>
+
+        <section>
+            <h2> Contenido que quiero aprender</h2>
+            <article>
+                <header>
+                    <h3>bootstrap para acelerar mi trabajo</h3>
+                </header>
+                <img src="../img/bootstrap.png" alt="logo Bootstrap" width="50" height="50px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla ipsam enim error quisquam beatae laboriosam consequuntur explicabo ut accusantium quas obcaecati autem temporibus minus corrupti eos ab! Vero, non.</p>
+                <footer>
+                    <p>Acceso al enlace para encontrar más información en la web oficial.</p>
+                    <a href="https://getbootstrap.com/">enlace Bootstrap</a>
+                </footer>
+            </article>    
+            <article>
+                <header>
+                    <h3>javascript para dar animaciones e interaccion a la pagina web</h3>
+                </header>
+                <img src="../img/js.png" alt="logo Javascript" width="50" height="50px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla ipsam enim error quisquam beatae laboriosam consequuntur explicabo ut accusantium quas obcaecati autem temporibus minus corrupti eos ab! Vero, non.</p>
+                <footer>
+                    <p>Acceso al enlace para encontrar más información en la web oficial.</p>
+                    <a href="https://nodejs.org/es">Javascript</a>
+                </footer>
+            </article>    
+            <article>  
+                <header>
+                    <h3>integrar bases de datos a una pagina web</h3>
+                </header>
+                <img src="../img/mongo.png" alt="logo MongoDB" width="50" height="50px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla ipsam enim error quisquam beatae laboriosam consequuntur explicabo ut accusantium quas obcaecati autem temporibus minus corrupti eos ab! Vero, non.</p>
+                <footer>
+                    <p>Acceso al enlace para encontrar más información en la web oficial.</p>
+                    <a href="https://www.mongodb.com/">MongoDB</a>
+                </footer>
+            </article>     
+        </section>
+
+        <!--formulario-->
+        <section>
+            <h2>Formulario</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Escribe tu nombre aquí"> 
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Escribe tu email aquí">
+                    <button type="submit">Enviar</button>
+                    <!--
+                    1. input type="email" id="email" permite: Hacer click en el texto y enfocar el input.
+                    2. conectar label con input: conexión correcta.
+                    3. placeholder: ayuda al usuario mostrando texto en la caja de texto, como indicacion (aparece dentro del input).
+                    4. type="email": Valida que tenga @, muestra teclado adecuado en celular, puede bloquear envío si está mal.
+                    5. input type="password": Oculta lo que escribes.
+                    6. type="button": SIN el "submit" es solo botón visual (no hace nada por sí solo), con submit funciona el click y envia.
+                    7. id="nombre": es un indicador único, se puede usar en css como: #nombre {border: 2px solid red;} (es un ejemplo).
+                    8. for="...": sirve para conectar con id="...", es como un “enlace interno”.
+                    9. input name="nombre": se usa para enviar datos al servidor. id = para identificar en la página, name = para enviar datos.
+                    -->
+                </form>
+        </section>
+    </main> 
+</body>
+</html>
