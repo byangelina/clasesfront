@@ -1,0 +1,61 @@
+Instrucciones:
+Abre VSCode
+Crea una carpeta llamada mi-primer-proyecto
+Dentro, crea un archivo index.html
+Escribe un documento HTML que incluya:
+
+Estructura base completa (<!DOCTYPE>, <html>, <head>, <body>)
+Un <header> con:
+
+Un título <h1> con el nombre de tu sitio
+
+Un <main> con:
+
+Un subtítulo <h2>
+Un párrafo de bienvenida
+
+Un <footer> con:
+
+Texto de copyright con el año 2026
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Símbolos Clave:
+./   Carpeta actual
+../  Subir un nivel
+/    Separador de carpetas
+
+Archivo en la MISMA carpeta: 
+<a href="./about.html">Acerca de</a>
+
+Archivo DENTRO de una carpeta:
+<img src="img/logo.png" alt="Logo">
+
+Archivo en carpeta CSS:
+<link rel="stylesheet" href="css/styles.css">
+
+Archivo en subcarpeta pages:
+<a href="pages/contacto.html">Contacto</a>
+
+Volver a index.html (SUBIR UN NIVEL):
+<a href="../index.html">Volver al inicio</a>
+
+Cargar una imagen (SUBIR y ENTRAR):
+<img src="../img/logo.png" alt="Logo">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

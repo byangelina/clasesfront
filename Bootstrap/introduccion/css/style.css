@@ -1,0 +1,35 @@
+
+/*RESUMEN DE ESTILOS BODY*/
+*:root{
+    color: rgb(69, 69, 207);
+}
+
+body{
+    font-size: 12px;
+}
+
+
+
+/*CARRUSEL*/
+.carousel-item{
+    background-color: rgb(255, 73, 128);
+    color: aliceblue;
+    font-weight: 600;
+    height: 90%;
+}
+
+/*GRID - FILAS*/
+
+.row{
+    background-color: orange;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+div{
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
