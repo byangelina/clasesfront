@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+/* HEADER */
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* CONTENEDOR GENERAL */
+.container {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+/* FILA 1 */
+.row1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.main1 {
+    background: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    display: grid;
+    gap: 10px;
+}
+
+.sidebar div {
+    background: #95a5a6;
+    padding: 20px;
+}
+
+/* FILA 2 */
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.menu {
+    background: #16a085;
+    color: white;
+    padding: 20px;
+}
+
+.main2 {
+    background: #2980b9;
+    color: white;
+    padding: 20px;
+}
+
+/* FILA 3 */
+.row3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #e67e22;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
