@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblia +Proteina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!------- nav que permita acceder a distintas secciones del sitio o a páginas relacionadas con el tema.-------------------------------------------------------------->
+            
+            <div class="logo">
+                <h1>Biblia +Proteina</h1>
+            </div>
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menú</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recetas</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria
+                            </a>
+                        </li>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Supervait</a></li>
+                            <li><a class="dropdown-item" href="#">Definición</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Test nutricional</a></li>
+                        </ul>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+    <!---------ubicado en la página principal para destacar contenido relevante.--------------------------------------------------------------------------------------------------->
+    <!----------Carousel (carrusel de imágenes): ubicado en la página principal para destacar contenido relevante..-------------------------------------------------------------------------------->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/taller/img/1366_2000.jpg" class="d-block w-100" alt="alimentos">
+                </div>
+                <div class="carousel-item">
+                    <img src="/taller/img/bigstock-best-high-protein-foods-321920386.jpg" class="d-block w-100" alt="alimentos">
+                </div>
+                <div class="carousel-item">
+                    <img src="/taller/img/siken-blog-beneficios-dieta-proteica.jpg" class="d-block w-100" alt="alimentos">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>   
+
+
+    <!-- Sección principal-->
+    <!-- introducción de alimentos altos en proteina. grupos de alimentos que logran sumar 30g de proteina al menos
+    (para dividir entre desayuno, almuerzo, merienda y cena). ofrecer recetas bajas en calorias y altas en proteina
+    para hacer deficit calorico, recetas altas en calorias y altas en proteina para alcanzar un supervait calorico.-->
+        
+    <section>
+            <h2>introducción</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut cum minus quo natus vel asperiores fugiat nostrum omnis voluptate id
+                exercitationem consequuntur, illo quasi eum. Exercitationem magnam nulla accusantium qui?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Expedita, odio reiciendis deserunt corrupti soluta enim explicabo, voluptatum nulla fuga commodi ut. Dolor at
+                iure optio odit perspiciatis suscipit alias aliquam
+            </p>
+
+    </section>
+
+
+<!-------GRILLA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--Sistema Grid de Bootstrap: para organizar el contenido de manera estructurada y responsiva.-------------------------------------------------------------------------------------------------------->
+<!-- seccion de diferentes alimentos con alto contenido proteico + una imagen representativa-->
+    <section>
+        <h2>Alimentos altos en proteina</h2>
+        <div class="grid text-center"> <!--FILA 1-------------------------------------------------------------------------------------------------------------------------->
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+        </div>
+
+        <div class="grid text-center"> <!--FILA 2------------------------------------------------------------------------------------------------------------------------->
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+        </div>
+
+        <div class="grid text-center"> <!--FILA 3-------------------------------------------------------------------------------------------------------------------------->
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+        </div>
+
+        <div class="grid text-center"> <!--FILA 4---------------------------------------------------------------------------------------------------------------------------->
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+            
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+                
+            <div class="g-col-6">
+                <h3>Titulo alimento</h3>
+                <img src="/taller/img/relleno.jpg" alt="alimento">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<!-----------Modal: utilizado para mostrar información adicional (por ejemplo: detalles, formularios, mensajes, etc.).---------------------------------------------------------->
+
+    <!-- ultimas recetas-->
+    <section>
+        <div class="card mb-3">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+
+<!------ Otra sección -------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <section>
+            <h2>Asesoráte con nosotros</h2>
+
+            <article>
+                <h3>Asesor nutricional</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis ea at architecto velit nemo sed, repudiandae ducimus!
+                Repellendus fugiat sint magni rerum! Suscipit iste odio perferendis quo sit eligendi.
+                </p>
+            </article>
+
+            <article>
+                <h3>Planes de entrenamiento</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsam quis architecto molestias id, excepturi consectetur
+                dignissimos eum quo delectus quibusdam minus ab cumque iste placeat sunt voluptatibus nam officia.
+            </p>
+            </article>
+
+        </section>
+
+
+
+
+    <footer>
+        <p>&copy; 2026 Biblia +protein Web. Todos los derechos reservados.</p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
